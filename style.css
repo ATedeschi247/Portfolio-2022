@@ -1,0 +1,102 @@
+nav {
+  background-color: #66ccff !important;
+}
+nav li{
+  transition: background-color 0.4s;
+}
+nav a {
+  color: #0066cc !important;
+  transition: color 0.4s;
+  text-decoration: none;
+}
+nav li.current {
+  background-color: #33bbff !important;
+}
+nav li:hover, nav li.current:hover {
+  background-color: #0088cc !important;
+}
+nav li:hover a{
+  color: white !important;
+}
+nav div.navbar-header > a.navbar-brand {
+  font-size: 20px;
+  transition: color 0.4s, background-color 0.4s;
+}
+nav div.navbar-header > a.navbar-brand:hover {
+  color: white !important;
+  background-color: #0088cc !important;
+}
+div.container, div.container-fluid {
+  color: #0080ff;
+}
+p {
+  font-size: 19px;
+}
+div.page-header > h1 {
+  font-size: 46px;
+}
+li {
+    font-size: 20px;
+    font-style: normal;
+    transition: font-size 0.2s, font-style 0.2s;
+
+}
+ul.li-effect > li:hover {
+    font-size: 30px;
+    font-style: italic;
+}
+body {
+  font-family: 'Blinker';
+  height: 100%;
+
+}
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+}
+img {
+  width: 100%;
+}
+div.col-sm-5 > img {
+  filter: blur(0px);
+  transition: filter 0.4s;
+}
+div.col-sm-5 > img:active {
+  filter: blur(4px);
+}
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+iframe {
+}
+div.banner-image {
+  background-image: url("https://publicdomainpictures.net/pictures/220000/velka/welcome-sign-1493904620XkE.jpg");
+  background-size: cover;
+  height: 500px;
+  background-position: 0% 20%;
+}
+a {
+  color: #3399ff;
+  text-decoration: underline;
+}
+a.btn {
+  text-decoration: initial;
+}
+table {
+  color: #0080ff;
+}
+table a {
+  color: #3399ff;
+  text-decoration: initial;
+}
+th {
+  color: #0073e6;
+}
+#CBunionCap {
+  margin-bottom: 20px;
+}
+.limited_height {
+  max-width: 300px;
+}
