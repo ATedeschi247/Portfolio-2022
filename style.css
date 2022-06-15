@@ -70,6 +70,10 @@ div.col-sm-5 > img:active {
   margin-right: auto;
 }
 iframe {
+  display: none;
+}
+div.col-sm-3:hover > iframe {
+  display: block;
 }
 div.banner-image {
   background-image: url("https://publicdomainpictures.net/pictures/220000/velka/welcome-sign-1493904620XkE.jpg");

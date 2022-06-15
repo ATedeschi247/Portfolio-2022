@@ -37,6 +37,7 @@
             <li><a href="About_Me.html">About Me</a></li>
             <li class="current"><a href="My_Work.html">My Work</a></li>
             <li><a href="My_Summer.html">My Summer</a></li>
+            <li><a href="resume.html">Resume</a></li>
           </ul>
         </div>
       </div>
@@ -80,16 +81,16 @@
             <a href="#TV_Shows" class="btn btn-primary"><span class="glyphicon glyphicon-film"></span> Favorite TV Shows <span class="glyphicon glyphicon-film"></span></a><br><br>
           </div>
           <div class="col-sm-4 text-center">
-            <a href="#Webmaster" class="btn btn-primary" target="_blank"><span class="glyphicon glyphicon-cd"></span> Webmaster Project <span class="glyphicon glyphicon-cd"></span></a><br><br>
+            <a href="#Webmaster" class="btn btn-primary"><span class="glyphicon glyphicon-cd"></span> Webmaster Project <span class="glyphicon glyphicon-cd"></span></a><br><br>
           </div>
           <div class="col-sm-4 text-center">
-            <a href="Little-Bird" class="btn btn-primary" target="_blank"><span class="glyphicon glyphicon-tower"></span> Little Bird Site <span class="glyphicon glyphicon-tower"></span></a><br><br>
+            <a href="#Little-Bird" class="btn btn-primary"><span class="glyphicon glyphicon-tower"></span> Little Bird Site <span class="glyphicon glyphicon-tower"></span></a><br><br>
           </div>
           <div class="col-sm-4 text-center">
-            <a href="#Candy" class="btn btn-primary" target="_blank"><span class="glyphicon glyphicon-ice-lolly"></span> Swedish Fish Site <span class="glyphicon glyphicon-ice-lolly-tasted"></span></a><br><br>
+            <a href="#Candy" class="btn btn-primary"><span class="glyphicon glyphicon-ice-lolly"></span> Swedish Fish Site <span class="glyphicon glyphicon-ice-lolly-tasted"></span></a><br><br>
           </div>
           <div class="col-sm-4 text-center">
-            <a href="#Vacation" class="btn btn-primary" target="_blank"><span class="glyphicon glyphicon-sunglasses"></span> Vacation Site <span class="glyphicon glyphicon-sunglasses"></span></a><br><br>
+            <a href="#Vacation" class="btn btn-primary"><span class="glyphicon glyphicon-sunglasses"></span> Vacation Site <span class="glyphicon glyphicon-sunglasses"></span></a><br><br>
           </div>
         </div>
         <br id="Eddie_Tribute">
@@ -122,8 +123,9 @@
             although I feel that it still had a good layout, despite the fact that
             it wasn't made in bootstrap.</p>
           </div>
-          <div class="col-sm-3">
+          <div class="col-sm-3" onmouseover="growiFrame(document.getElementById('iframe-homepage'))">
             <a href="https://codehs.com/editor/html/3243153/2132133/index.html" class="btn btn-primary" target="_blank"><span class="glyphicon glyphicon-home"></span> My Original Homepage <span class="glyphicon glyphicon-home"></span></a><br><br>
+            <iframe id="iframe-homepage" src="https://codehs.com/editor/html/3243153/2132133/index.html" width="0%" height="0%"></iframe>
           </div>
         </div>
         <br id="Tell_a_Story">
@@ -288,5 +290,11 @@
         </div>
         <br><br>
       </div>
+      <script type="text/javascript">
+        function growiFrame(iframe) {
+          iframe.width = "200";
+          iframe.height = "300";
+        }
+      </script>
     </body>
 </html>
